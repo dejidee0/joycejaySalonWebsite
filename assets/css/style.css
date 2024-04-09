@@ -94,6 +94,24 @@
     font-size: 1.4rem; 
   }
 }
+/* CSS to make the Google Form container responsive */
+.google-form-container {
+  max-width: 100%; /* Ensure the form does not exceed the width of its container */
+  overflow-x: auto; /* Allow horizontal scrolling on smaller screens if needed */
+}
+
+/* Adjustments for mobile screens */
+@media screen and (max-width: 768px) {
+  .appoin-card {
+    display: flex;
+    flex-direction: column; /* Display the card content in a column layout on smaller screens */
+  }
+
+  .card-content {
+    margin-bottom: 20px; /* Add spacing between card content and banners */
+  }
+}
+
 
 
 
